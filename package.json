@@ -1,0 +1,16 @@
+{
+  "name": "mp3-tagger",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.14.2",
+    "googleapis": "^144.0.0",
+    "node-id3": "^0.2.6"
+  }
+}
